@@ -8,7 +8,6 @@ hats-module/=lib/hats-module/src/
 ERC1155/=lib/hats-module/lib/hats-protocol/lib/ERC1155/
 hats-protocol/=lib/hats-module/lib/hats-protocol/src
 openzeppelin-contracts/=lib/hats-module/lib/openzeppelin-contracts/
-solady/=lib/hats-module/lib/solady/src/
 solbase/=lib/hats-module/lib/hats-protocol/lib/solbase/src/
 solmate/=lib/hats-module/lib/solady/lib/solmate/src/
 utils/=lib/hats-module/lib/hats-protocol/lib/utils/
