@@ -10,3 +10,6 @@
 [submodule "lib/allo-v2"]
 	path = lib/allo-v2
 	url = https://github.com/allo-protocol/allo-v2
+[submodule "lib/hats-module"]
+	path = lib/hats-module
+	url = https://github.com/Hats-Protocol/hats-module
