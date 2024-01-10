@@ -63,7 +63,7 @@ contract Strategy is BaseStrategy {
   /// ============= Views ================
   /// ====================================
 
-  function getRecipientStatus(address _recipientId) external view returns
+  function getRecipientStatus(address _recipientId) external view override returns
   (RecipientStatus) {
 
   }
@@ -78,6 +78,11 @@ contract Strategy is BaseStrategy {
 
   function _isValidAllocator(address _allocator) internal view override virtual
   returns (bool) {
+
+  }
+
+  function _getRecipientStatus(address _recipientId) internal view override virtual returns
+  (RecipientStatus) {
 
   }
 }
